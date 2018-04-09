@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Upload";
+}
+
+<h2>Upload</h2>
+<style>
+    table, td, tr {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    span {
+        padding: 10px;
+        margin: 10px;
+    }
+</style>
+<input name="myFile" id="myFile" type="file" multiple /><br/>
+<input type="button" value="Submit" id="btnSubmit" class="btn btn-info" />
+<div id="fiesInfo"></div>
+<div id="divOutput"></div>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/Upload.js"></script>
